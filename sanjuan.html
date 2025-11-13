@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>San Juan Bautista de La Salle — Historia</title>
+  <style>
+    :root{
+      --azul:#0b4890; /* tono principal */
+      --azul-claro:#1e66c8;
+      --amarillo:#ffd400;
+      --texto:#08304a;
+      --fondo:#eaf4ff;
+      --card-bg: rgba(255,255,255,0.9);
+    }
+    body{font-family: system-ui, -apple-system, Roboto, 'Segoe UI', Arial; margin:0; background: linear-gradient(180deg,var(--fondo),white); color:var(--texto)}
+    header{background: linear-gradient(90deg,var(--azul),var(--azul-claro)); color:white; padding:2.5rem 1rem; text-align:center}
+    header h1{margin:0; font-size:2.2rem; letter-spacing:0.6px}
+    .container{max-width:1000px;margin: -40px auto 2rem; padding:1rem}
+    .card{background:var(--card-bg); border-radius:12px; box-shadow:0 8px 30px rgba(6,30,70,0.08); padding:1.25rem; margin-bottom:1rem}
+    .hero{display:flex; gap:1rem; align-items:center}
+    .hero img{width:160px; height:160px; object-fit:cover; border-radius:8px; border:6px solid var(--amarillo)}
+    h2{color:var(--azul)}
+    .timeline{display:grid; gap:0.75rem}
+    .timeline .item{border-left:4px solid var(--amarillo); padding:0.75rem 0.75rem 0.75rem 1rem}
+    .grid{display:grid; grid-template-columns:1fr 320px; gap:1rem}
+    .bio p{line-height:1.55}
+    footer{padding:1rem; text-align:center; color:#555}
+    /* responsive */
+    @media (max-width:900px){.grid{grid-template-columns:1fr} .hero{flex-direction:column; align-items:flex-start} .hero img{width:100%; height:200px}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>San Juan Bautista de La Salle</h1>
+    <p style="margin-top:0.5rem; color:rgba(255,255,255,0.9)">Fundador de los Hermanos de las Escuelas Cristianas y patrono de los educadores</p>
+  </header>
+
+  <main class="container">
+    <section class="card hero">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/John_baptist_de_la_salle_1.jpg" alt="San Juan Bautista de La Salle">
+      <div>
+        <h2>Breve introducción</h2>
+        <p>Juan Bautista de La Salle (1651–1719) fue un sacerdote francés que dedicó su vida a la educación de los niños pobres. Fundó el Instituto de los Hermanos de las Escuelas Cristianas y desarrolló métodos pedagógicos que influyeron en la educación moderna.</p>
+        <p style="margin-top:0.4rem"><strong>Tema:</strong> Azul con amarillo — colores que simbolizan confianza, claridad y energía educativa.</p>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card bio">
+        <h2>Historia y legado</h2>
+        <p>Juan Bautista nació en Reims, Francia, en 1651. Tras ordenarse sacerdote, renunció a su canonjía y fortuna para dedicarse a formar escuelas para niños desfavorecidos. Organizó la enseñanza en aulas, promovió la formación de maestros y puso énfasis en el uso de la lengua vernácula.</p>
+        <div class="timeline" style="margin-top:1rem">
+          <div class="item"><strong>1651</strong> — Nace en Reims, Francia.</div>
+          <div class="item"><strong>1678</strong> — Ordenado sacerdote.</div>
+          <div class="item"><strong>1680–1700</strong> — Inicia escuelas para niños pobres y forma comunidades de hermanos dedicados a la enseñanza.</div>
+          <div class="item"><strong>1725</strong> — El Instituto de los Hermanos de las Escuelas Cristianas recibe aprobación (posterior a su muerte se consolida su obra).</div>
+        </div>
+      </div>
+
+      <aside class="card">
+        <h2>Galería</h2>
+        <p>Imágenes y esculturas históricas de San Juan Bautista de La Salle.</p>
+        <figure style="margin:0; margin-top:0.6rem">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE6wOBkU7QcGb92voq6jTAC3XizZMEoGyJbVB3NImwQzy8LPRAJaDd_-AOrb6VWGk1RKyayVkDKPK1uSS33rhnu_bcWNGndJzXMA0rJ7vkMtJCCGawQ6sgSsHH3tU6csgeqNUuJB2rrbk/s1600/0lasalle+estatua106.JPG" alt="Estatua de La Salle" style="width:100%; border-radius:8px;">
+          <figcaption style="font-size:0.85rem; color:#444; margin-top:0.4rem">Estatua representativa frente a una parroquia en París.</figcaption>
+        </figure>
+      </aside>
+    </section>
+
+    <section class="card">
+      <h2>Métodos pedagógicos</h2>
+      <p>La Salle promovió la enseñanza en aula (en lugar de tutoría individual), la preparación y formación de los maestros y la organización curricular. Sus aportes sentaron bases para la educación común y accesible.</p>
+      <ul>
+        <li>Organización de escuelas populares.</li>
+        <li>Formación profesional de maestros.</li>
+        <li>Uso del idioma local en la enseñanza.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Curiosidades</h2>
+      <ul>
+        <li>Fue canonizado en 1900 por el Papa León XIII.</li>
+        <li>Es el patrono de los educadores (nombrado por el Papa Pío XII).</li>
+        <li>Su fiesta se celebra el 7 de abril (en el calendario moderno).</li>
+      </ul>
+    </section>
+
+  </main>
+
+</body>
+
+</body>
+</html>
